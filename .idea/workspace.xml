@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e603359-4947-4a64-b792-6b4683935334" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/cvtc/bigram/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/cvtc/bigram/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +41,17 @@
     "Application.Main.executor": "Run",
     "Application.edu.cvtc.bigram.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.MainTest.addBigram.executor": "Run",
     "JUnit.MainTest.createBigramsEmpty.executor": "Coverage",
     "JUnit.MainTest.createBigramsSingle.executor": "Run",
     "JUnit.MainTest.createConnection.executor": "Run",
     "JUnit.MainTest.executor": "Run",
     "JUnit.MainTest.getId.executor": "Coverage",
     "JUnit.MainTest.mainArgs.executor": "Coverage",
+    "JUnit.MainTest.testAddBigramWithValidInput.executor": "Run",
+    "JUnit.MainTest.testAddInvalidInput.executor": "Run",
+    "JUnit.MainTest.testAddInvalidInputNegative.executor": "Run",
+    "JUnit.MainTest.testAddInvalidInputZero.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -56,7 +62,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/kharris20/git/courses/sqc-programs/sqc-bigram-learn",
+    "last_opened_file_path": "C:/Users/Kseverson1988/OneDrive/Desktop/SQC/6/sqc-bigram-generate-Kseverson1988",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,76 +86,78 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest">
-    <configuration name="edu.cvtc.bigram.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.cvtc.bigram.Main" />
-      <module name="sqc-bigram-learn" />
-      <option name="PROGRAM_PARAMETERS" value="sample-texts/empty.txt" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MainTest.testAddBigramWithValidInput">
     <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sqc-bigram-learn" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.createBigramsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.testAddBigramWithValidInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sqc-bigram-learn" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="createBigramsEmpty" />
+      <option name="METHOD_NAME" value="testAddBigramWithValidInput" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.getId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.testAddInvalidInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sqc-bigram-learn" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="getId" />
+      <option name="METHOD_NAME" value="testAddInvalidInput" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.mainArgs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.testAddInvalidInputNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sqc-bigram-learn" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="mainArgs" />
+      <option name="METHOD_NAME" value="testAddInvalidInputNegative" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.testAddInvalidInputZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sqc-bigram-learn" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="testAddInvalidInputZero" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.edu.cvtc.bigram.Main" />
-      <item itemvalue="JUnit.MainTest.getId" />
+      <item itemvalue="JUnit.MainTest.testAddBigramWithValidInput" />
+      <item itemvalue="JUnit.MainTest.testAddInvalidInput" />
+      <item itemvalue="JUnit.MainTest.testAddInvalidInputNegative" />
+      <item itemvalue="JUnit.MainTest.testAddInvalidInputZero" />
       <item itemvalue="JUnit.MainTest" />
-      <item itemvalue="JUnit.MainTest.createBigramsEmpty" />
-      <item itemvalue="JUnit.MainTest.mainArgs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest.testAddBigramWithValidInput" />
         <item itemvalue="JUnit.MainTest" />
-        <item itemvalue="Application.edu.cvtc.bigram.Main" />
-        <item itemvalue="JUnit.MainTest.getId" />
-        <item itemvalue="JUnit.MainTest.mainArgs" />
-        <item itemvalue="JUnit.MainTest.createBigramsEmpty" />
+        <item itemvalue="JUnit.MainTest.testAddInvalidInputZero" />
+        <item itemvalue="JUnit.MainTest.testAddInvalidInputNegative" />
+        <item itemvalue="JUnit.MainTest.testAddInvalidInput" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
       </set>
     </attachedChunks>
   </component>
@@ -167,6 +175,8 @@
       <workItem from="1708057290455" duration="17732000" />
       <workItem from="1708257070182" duration="361000" />
       <workItem from="1708374488821" duration="1831000" />
+      <workItem from="1727817508872" duration="1296000" />
+      <workItem from="1727881396832" duration="8474000" />
     </task>
     <servers />
   </component>
